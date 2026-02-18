@@ -62,22 +62,26 @@ It demonstrates secure authentication and authorization mechanisms with layered 
 
 ---
 
-## 📷 Screenshots
+## Screenshots
 
+### Home Page
+![Home Page](static/images/image-1.png)
 
+### Login Page
+![Login Page](static/images/image-2.png)
 
-- Home Page
-![alt text]static\images\image-1.png
-- Login Page
-![alt text](image-2.png)
-- Dashboard
-![alt text](image-3.png)
-- Admin Panel
-![alt text](image-4.png)
-- Locked Account
-![alt text](image-6.png)
-- Rate Limit Page
-![alt text](image-5.png)
+### Dashboard
+![Dashboard](static/images/image-3.png)
+
+### Admin Panel
+![Admin Panel](static/images/image-4.png)
+
+### Locked Account
+![Locked Account](static/images/image-6.png)
+
+### Rate Limit Page
+![Rate Limit Page](static/images/image-5.png)
+
 
 ---
 
