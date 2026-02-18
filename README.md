@@ -77,4 +77,11 @@ It demonstrates secure authentication and authorization mechanisms with layered 
 ---
 
 ## 📁 Project Structure
+secure_web_app/
+│
+├── app.py
+├── models.py
+├── templates/
+├── static/
+└── requirements.txt
 
