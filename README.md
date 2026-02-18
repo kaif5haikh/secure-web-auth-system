@@ -67,7 +67,7 @@ It demonstrates secure authentication and authorization mechanisms with layered 
 
 
 - Home Page
-![alt text](image-1.png)
+![Home Page](static/screenshots/image-1.png)
 - Login Page
 ![alt text](image-2.png)
 - Dashboard
@@ -106,5 +106,11 @@ secure_web_app/
 │   └── 429.html
 
 ```
+
+---
+
+## 🎯 Conclusion
+This project demonstrates layered security implementation in a web authentication system using industry best practices.
+
 
 
