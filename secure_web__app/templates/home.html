@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="text-center mt-5">
+    <h1 class="display-4">Secure Web Application 🔐</h1>
+    <p class="lead">Authentication & Authorization System</p>
+
+    {% if current_user.is_authenticated %}
+        <a href="{{ url_for('dashboard') }}" class="btn btn-primary mt-3">Go to Dashboard</a>
+        <a href="{{ url_for('logout') }}" class="btn btn-danger mt-3"
+           onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+           Logout
+        </a>
+
+        <form id="logout-form" method="POST" action="{{ url_for('logout') }}" style="display:none;">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+        </form>
+
+    {% else %}
+        <a href="{{ url_for('login') }}" class="btn btn-success mt-3">Login</a>
+        <a href="{{ url_for('Register') }}" class="btn btn-warning mt-3">Register</a>
+    {% endif %}
+</div>
+{% endblock %}

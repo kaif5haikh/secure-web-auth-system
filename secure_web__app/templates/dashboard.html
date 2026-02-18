@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+
+<div class="card shadow p-4">
+    <h3>Welcome, {{ current_user.username }} 👋</h3>
+    <p>Your role: <strong>{{ current_user.role }}</strong></p>
+
+    {% if current_user.role == "admin" %}
+        <a href="{{ url_for('admin') }}" class="btn btn-warning mt-3">Go to Admin Panel</a>
+    {% endif %}
+</div>
+
+{% endblock %}
