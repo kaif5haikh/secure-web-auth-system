@@ -65,14 +65,19 @@ It demonstrates secure authentication and authorization mechanisms with layered 
 ## 📷 Screenshots
 
 
-(Add screenshots of:)
+
 - Home Page
-![alt text](image.png)
+![alt text](image-1.png)
 - Login Page
+![alt text](image-2.png)
 - Dashboard
+![alt text](image-3.png)
 - Admin Panel
+![alt text](image-4.png)
 - Locked Account
+![alt text](image-6.png)
 - Rate Limit Page
+![alt text](image-5.png)
 
 ---
 
@@ -99,12 +104,7 @@ secure_web_app/
 │   ├── 404.html
 │   ├── 405.html
 │   └── 429.html
-│
-└── static/
-    ├── css/
-    │   └── (optional custom styles)
-    └── images/
-        └── (screenshots or assets)
+
 ```
 
 
