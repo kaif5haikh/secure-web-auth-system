@@ -67,7 +67,7 @@ It demonstrates secure authentication and authorization mechanisms with layered 
 
 
 - Home Page
-![Home Page](images/image-1.png)
+static\images\image-1.png
 - Login Page
 ![alt text](image-2.png)
 - Dashboard
